@@ -17,11 +17,11 @@ public class Guest {
     @Column(name = "LAST_NAME")
     private String lastName;
 
-    @Column(name = "EMAIL_ADRESS")
-    private String emailAdress;
+    @Column(name = "EMAIL_ADDRESS")
+    private String emailAddress;
 
-   @Column(name = "ADRESS")
-    private String adress;
+   @Column(name = "ADDRESS")
+    private String address;
 
    @Column(name = "COUNTRY")
     private String country;
@@ -56,20 +56,20 @@ public class Guest {
         this.lastName = lastName;
     }
 
-    public String getEmailAdress() {
-        return emailAdress;
+    public String getEmailAddress() {
+        return emailAddress;
     }
 
-    public void setEmailAdress(String emailAdress) {
-        this.emailAdress = emailAdress;
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getCountry() {
@@ -102,8 +102,8 @@ public class Guest {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", emailAdress='" + emailAdress + '\'' +
-                ", adress='" + adress + '\'' +
+                ", emailAdress='" + emailAddress + '\'' +
+                ", adress='" + address + '\'' +
                 ", country='" + country + '\'' +
                 ", state='" + state + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
