@@ -23,6 +23,6 @@ public class GuestController {
     public String getGuest(Model model){
         List<Guest> guests = guestService.findAllGuests();
         model.addAttribute("guest", guests);
-        return "guests";
+        return "hotel-guests";
     }
 }
