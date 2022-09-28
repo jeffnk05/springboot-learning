@@ -1,4 +1,4 @@
-package com.jeff.learningspring.data.web;
+package com.jeff.learningspring.web;
 
 import com.jeff.learningspring.business.ReservationService;
 import com.jeff.learningspring.business.RoomReservation;
