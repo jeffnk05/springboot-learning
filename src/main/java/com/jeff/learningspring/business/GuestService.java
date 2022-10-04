@@ -23,4 +23,8 @@ public class GuestService {
             throw new RuntimeException("There are no Guests");
         }
     }
+
+    public Guest saveGuest(Guest guest){
+        return guestRepository.save(guest);
+    }
 }
